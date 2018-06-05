@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Code54 is a non-profit initiative that aims to Teach ● Mentor ● Build the next generation of African Software Developer">
+    <meta name="keywords" content="Code54 is a non-profit initiative that aims to Teach ● Mentor ● Build the next generation of African Software Developer">
+    <meta property="og:url"                content="#" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="code54 - LOGIN/SIGN UP" />
+    <meta property="og:description"        content="Code54 is a non-profit initiative that aims to Teach ● Mentor ● Build the next generation of African Software Developer"/>
+    <meta property="og:image"              content="#"/>
+	<title>Favcode54 - LOGIN/SIGN UP</title>
+ <!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<!--Import app.css-->
+<link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body class="shade_grey">
+<!-- I am making the navbar background white -->
+<header>
+	<nav class=" height_x2 shade_grey">
+		 <a href="#" class="brand-logo center"><span class="blue-text">Co</span ><span class="green-text">de</span><span class="yellow-text">54</span></a>
+	</nav>
+</header>
+
+<main>
+
+ <div class="container move_down_x6 ">
+ 	<div class="row">
+ 		 <div class="col m8 l8 s12">
+ 		 	<ul class="tabs move_left_x10">
+ 		        <li class="tab col s12 l6"><a href="#sign_in">SIGN IN</a></li>
+ 		        <li class="tab col s12 l6"><a class="active" href="#sign_up">SIGN UP</a></li>
+ 		 	</ul>
+ 		 </div>
+ 		   <div id="sign_in" class="col s12  tab_info white  padding_x1">
+
+               <div class="form_title">Sign in to your account</div>
+                <p class="text_info">Every once in a while, a new technology, an old problem, and a big idea turn into an innovation. Happy learning</p>
+               <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                  	<div class="input-field col s12">
+                      <input placeholder="Email Address"   name="email" type="email" class="validate" required>
+                     </div>
+
+                     <div class="input-field col s12">
+                      <input placeholder="Password"   name="Password" type="password" class="validate" required>
+                     </div>
+
+                     <p class="terms move_left_x0">By clicking Sign In, you agree to our <a href="">Terms of Use </a> and our <a href=""> Privacy Policy</a>. </p>
+
+                     <div class="input-field col s12">
+                       <button class="btn hoverable" >SIGN IN</button>
+                     </div>
+                     <br>
+                     <a class="forgot_pass center-align">Forgot your password?</a>
+                  </div>
+                </form>	
+               </div>
+
+
+ 		   </div>
+
+           <div id="sign_up" class="col s12 white tab_info  padding_x1">
+           	   <!-- INTRODUCTION POINT -->
+           	   <div class="form_title">Create your coder account</div>
+                <p class="text_info">Code54 does not require you to know programming or have a degree. We make you into the genius that tech companies are looking for</p>
+
+
+               <div class="row">
+
+                <form class="col s12">
+
+                  <div class="row">
+
+
+                  	 <div class="input-field col s12 l6">
+                      <input placeholder="First Name"   name="first_name" type="text" class="validate" required>
+                     </div>
+
+                     <div class="input-field col s12 l6">
+                      <input placeholder="Last Name"   name="last_name" type="text" class="validate" required>
+                     </div>
+
+                  	 <div class="input-field col s12">
+                      <input placeholder="Email Address"   name="email" type="email" class="validate" required>
+                     </div>
+
+                     <div class="input-field col s12 l6">
+                      <input placeholder="Password"   name="password" type="password" class="validate" required>
+                     </div>
+
+                     <div class="input-field col s12 l6">
+                      <input placeholder=" Confirm Password"   name="confirm_password" type="password" class="validate" required>
+                     </div>
+
+                     <!-- TERMS AND POLICY -->
+                     <p class="terms move_left_x0">By clicking Sign Up, you agree to our <a href="">Terms of Use </a> and our <a href=""> Privacy Policy</a>. </p>
+                      
+                      <!-- SIGN Up BUTTON -->
+                     <div class="input-field col s12">
+                       <button class="btn hoverable blue" >SIGN UP</button>
+                     </div>
+                  </div>
+                </form>	
+               </div>
+           </div>
+ 	</div>
+ </div>
+
+</main>
+
+
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+ <!--JavaScript at end of body for optimized loading-->
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript">
+	 $(document).ready(function(){
+    $('.tabs').tabs();
+  });
+</script>
+</html>
